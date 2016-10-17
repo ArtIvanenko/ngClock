@@ -1,0 +1,14 @@
+<span class="loading" ng-if="loading">Load clock...</span>
+<div id="clock" ng-show="!loading">
+	<span class="hour"></span>
+	<span class="minut"></span>
+	<span class="second"></span>
+	<span class="digital" ng-if="digital">{{digitalTime}}</span>
+	<div class="hold-form">
+		<form name="checkboxForm" >
+	        <label>Get digital clock:
+	            <input type="checkbox" ng-model="digital">
+	        </label>
+	    </form>
+	</div>
+</div>
