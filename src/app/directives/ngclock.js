@@ -12,14 +12,13 @@
 					scope.loading = true;
 
         			var hours,
-        				minutes,
-        				seconds;
-
-        			var clock = element.children();
-        			var hourArrow = clock[0].querySelector('.hour');
-        			var minutArrow = clock[0].querySelector('.minut');
-        			var secondArrow = clock[0].querySelector('.second');
-        			var digital = clock[0].querySelector('.digital');
+        			    minutes,
+        			    seconds,
+				    clock = element.children(),
+				    hourArrow = clock[0].querySelector('.hour'),
+        			    minutArrow = clock[0].querySelector('.minut'),
+        			    secondArrow = clock[0].querySelector('.second'),
+        			    digital = clock[0].querySelector('.digital');
 
 					updateTime();
 
